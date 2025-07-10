@@ -1,15 +1,19 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "![Demo App](/frontend/public/screenshot-for-readme.png)",
+  "description": "A real-time chat app built with MERN, Tailwind CSS, and Socket.io",
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dharshan D",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dharshan7200/Real-time-chat-application.git"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "daisyui": "^4.12.23",
